@@ -10,7 +10,6 @@ st.set_page_config(page_title="Dashboard de Validação Fiscal", page_icon="📊
 URL_BASE = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQXjBJDTJKEqmfsJ7--1yKYu4GS_HGjSL6oYqmxvBQAuq531vP9Tn8aAtslzfcv7-nBI2etu-66UFg1/pub?gid=0&single=true&output=csv"
 URL_REGRAS = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQXjBJDTJKEqmfsJ7--1yKYu4GS_HGjSL6oYqmxvBQAuq531vP9Tn8aAtslzfcv7-nBI2etu-66UFg1/pub?gid=811132636&single=true&output=csv"
 URL_DIVERGENCIAS = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQXjBJDTJKEqmfsJ7--1yKYu4GS_HGjSL6oYqmxvBQAuq531vP9Tn8aAtslzfcv7-nBI2etu-66UFg1/pub?gid=1194048936&single=true&output=csv"
-# O URL do resumo pode ser o mesmo ou um novo, o importante é que a lógica abaixo vai lê-lo corretamente
 URL_RESUMO = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQXjBJDTJKEqmfsJ7--1yKYu4GS_HGjSL6oYqmxvBQAuq531vP9Tn8aAtslzfcv7-nBI2etu-66UFg1/pub?gid=1297077689&single=true&output=csv"
 
 @st.cache_data(show_spinner=False)
